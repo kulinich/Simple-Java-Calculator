@@ -89,7 +89,8 @@ public class UI implements ActionListener {
       for (int i = 0; i < 10; i++) {
     		 but[i] = new JButton(String.valueOf(i));
       }      
-      butAdd = new JButton("+");      
+      butAdd = new JButton("+");
+      butAdd.setSize( butAdd.getWidth(), 250);
       butMinus = new JButton("-");      
       butMultiply = new JButton("*");      
       butDivide = new JButton("/");      
@@ -112,7 +113,7 @@ public class UI implements ActionListener {
    }
    
    public void init() {      
-      frame.setSize(450, 450);
+      frame.setSize(450, 650);
       frame.setVisible(true);
       frame.setLocationRelativeTo(null); 
       frame.setResizable(false);
