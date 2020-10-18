@@ -6,3 +6,5 @@
 # Mac OS System
 .DS_Store*
 ._*
+.idea
+Simple-Java-Calculator.iml
